@@ -39,25 +39,25 @@ KeyFinder().solve_puzzle(
 
 ## Methods
 
-### `generate_public(private_key)`
+### generate_public(private_key)
 Generates a public address from a private key.
 
-### `generate_wif(private_key)`
+### generate_wif(private_key)
 Converts a private key to Wallet Import Format (WIF).
 
-### `find_private_key(min_range, max_range, target_address)`
+### find_private_key(min_range, max_range, target_address)
 Searches for the private key that corresponds to the target address.
 
-### `find_public_key(private_key)`
+### find_public_key(private_key)
 Finds the public key corresponding to a given private key.
 
-### `calculate_public_key_point(target_public_key)`
+### calculate_public_key_point(target_public_key)
 Calculates the (x, y) point of the public key on the elliptic curve.
 
-### `bsgs(target_point, max_steps, start)`
+### bsgs(target_point, max_steps, start)
 Implements the Baby-step Giant-step algorithm to find the private key.
 
-### `solve_puzzle(target_public_key, target_address, start_range_hex, end_range_hex)`
+### solve_puzzle(target_public_key, target_address, start_range_hex, end_range_hex)
 Main method to solve the puzzle and find the private key.
 
 ## Important Notes
